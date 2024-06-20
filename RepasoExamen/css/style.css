@@ -1,0 +1,151 @@
+/* TIPOGRAFIA */
+.montserrat {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* COLUMNAS */
+
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+
+
+/* MENU */
+.menu{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    list-style: none;
+    background-image: linear-gradient(to right, rgb(27, 27, 27) , rgb(41, 41, 41));
+    display: flex;
+    height: 80px;
+    align-items: center; 
+    /* Para que no salga el borde superior blanco encima del menu */
+    margin: 0;
+
+}
+
+ul{
+    gap: 2.5rem;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+
+}
+li a:hover{
+    color: rgb(175, 0, 96);
+}
+
+.logo{
+    width: 70px;
+}
+
+/* IMAGENES */
+
+.imagen-header{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.container1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    gap: 30px;
+    margin-top: 40px;
+
+}
+
+.img-container{
+    width: 500px; /* Ancho del contenedor */
+    height: 500px; /* Alto del contenedor */
+    overflow: hidden;
+      
+}
+
+.content {
+    display: none; /* Ocultar por defecto */
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+}
+
+/* DESPLEGABLE */
+
+.desplegable{
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 50vh;
+
+}
+
+/* FORMULARIO */
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+form {
+    width: 100%;
+    max-width: 400px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #ca0065;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #7e003f;
+}
+
